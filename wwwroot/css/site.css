@@ -1,3 +1,6 @@
+:root {
+  /*  */
+}
 html {
   font-size: 14px;
 }
@@ -19,4 +22,14 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+.boton {
+  margin-top: 10px;
+  padding: 10px 5px;
+  background-color: rgb(86, 86, 229);
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
 }

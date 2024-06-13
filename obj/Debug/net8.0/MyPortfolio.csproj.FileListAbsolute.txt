@@ -28,3 +28,4 @@ D:\UMCA\2024\IIC\PROGRAMACION_5\C4\MyPortfolio\obj\Debug\net8.0\refint\MyPortfol
 D:\UMCA\2024\IIC\PROGRAMACION_5\C4\MyPortfolio\obj\Debug\net8.0\MyPortfolio.pdb
 D:\UMCA\2024\IIC\PROGRAMACION_5\C4\MyPortfolio\obj\Debug\net8.0\MyPortfolio.genruntimeconfig.cache
 D:\UMCA\2024\IIC\PROGRAMACION_5\C4\MyPortfolio\obj\Debug\net8.0\ref\MyPortfolio.dll
+D:\UMCA\2024\IIC\PROGRAMACION_5\C4\MyPortfolio\obj\Debug\net8.0\MyPortfolio.sourcelink.json
