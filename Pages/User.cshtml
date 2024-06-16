@@ -1,0 +1,18 @@
+@page
+@model MyPortfolio.Pages.UserModel
+@{
+    ViewData["Title"] = "User";
+}
+<h2>User Details</h2>
+<div>
+    <p><strong>Id:</strong> @Model.User.Id</p>
+    <p><strong>Name:</strong> @Model.User.Name</p>
+    <p><strong>Username:</strong> @Model.User.Username</p>
+    <p><strong>Email:</strong> @Model.User.Email</p>
+    <p><strong>Phone:</strong> @Model.User.Phone</p>
+    <p><strong>Web Site:</strong> @Model.User.Website</p>
+    <h3>Company</h3>
+    <p><strong>Name:</strong> @Model.User.Company.Name</p>
+    <p><strong>Catch Phrase:</strong> @Model.User.Company.CatchPhrase</p>
+    <p><strong>BS:</strong> @Model.User.Company.Bs</p>
+</div>
