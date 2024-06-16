@@ -12,17 +12,21 @@
     <p>Sumaremos dos números</p>
 
     <form method="post">
-        <label for="fnumber">First Number</label><br>
-        <input type="number" id="fnumber" name="fnumber" asp-for="Fnumber"><br>
-        <label for="Snumber">Second Number</label><br>
-        <input type="number" id="snumber" name="snumber" asp-for="Snumber"><br>
-        <label for="result">Result</label><br>
-        <input type="number" id="result" name="result" asp-for="Result"><br>
+        <label class="label" for="fnumber">First Number</label><br>
+        <input class="input" type="number" id="fnumber" name="fnumber" asp-for="Fnumber"><br>
+
+        <label class="label" for="Snumber">Second Number</label><br>
+        <input class="input" type="number" id="snumber" name="snumber" asp-for="Snumber"><br>
+        
+        <label class="label" for="result">Result</label><br>
+        <input class="input" type="number" id="result" name="result" asp-for="Result"><br>
         
         <!-- <input type="submit" value="Submit"> -->
         <input class="boton" type="submit" value="Sumar" asp-page-handler="Add">
         <input class="boton" type="submit" value="Restar" asp-page-handler="Sub">
         <input class="boton" type="submit" value="Multiplicar" asp-page-handler="Mul">
         <input class="boton" type="submit" value="Dividir" asp-page-handler="Div">
+
+        <input type="reset" value="Reset" class="boton button-reset">
     </form>
 </div>
