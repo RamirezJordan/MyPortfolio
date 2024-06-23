@@ -18,7 +18,7 @@ namespace MyPortfolio.Pages
 
             client.DefaultRequestHeaders.UserAgent.TryParseAdd("request"); // Necesario para evitar un error de GitHub API
 
-            GitHubUser = await client.GetFromJsonAsync<GitHubUser>("users/ramirezjordan");
+            GitHubUser = await client.GetFromJsonAsync<GitHubUser>("users/fabian1299");
         }
     }
 
