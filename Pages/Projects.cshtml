@@ -1,0 +1,25 @@
+@page
+@model ProjectsModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<h2>Proyectos</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Tecnologías</th>
+            <th>Enlace</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var repo in Model.Repos)
+        {
+            <tr>
+                <td>@repo.Name</td>
+                <td>@repo.Description</td>
+                <td>@repo.Language</td>
+                <td><a href="@repo.HtmlUrl" target="_blank">Ver en GitHub</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
