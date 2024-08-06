@@ -18,16 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\UMCA\2024\IIC\PROGRAMACION_5\MyPortfolio
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/UMCA/2024/IIC/PROGRAMACION_5/MyPortfolio/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/UMCA/2024/IIC/PROGRAMACION_5/MyPortfolio/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/UMCA/2024/IIC/PROGRAMACION_5/MyPortfolio/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/UMCA/2024/IIC/PROGRAMACION_5/MyPortfolio/Pages/Shared/_ValidationScriptsPartial.cshtml]
