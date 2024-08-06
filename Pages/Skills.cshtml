@@ -1,0 +1,21 @@
+@page
+@model MyPortfolio.Pages.SkillsModel
+@{
+    ViewData["Title"] = "Habilidades";
+}
+
+<h2>Habilidades Técnicas</h2>
+<ul>
+    @foreach (var skill in Model.TechnicalSkills)
+    {
+        <li>@skill</li>
+    }
+</ul>
+
+<h2>Habilidades Profesionales</h2>
+<ul>
+    @foreach (var skill in Model.ProfessionalSkills)
+    {
+        <li>@skill</li>
+    }
+</ul>
