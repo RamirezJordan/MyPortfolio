@@ -14,13 +14,62 @@ html {
 
 .btn{
   margin-top: 2rem;
+  padding: .5rem 2rem;
+  background-color: darkorchid;
+  border: none;
+  border-radius: 2rem;
+  font-weight: 700;
 }
 
 html {
   position: relative;
   min-height: 100%;
+  
 }
 
 body {
   margin-bottom: 60px;
+  background-color: #1b263b;
+  color: aliceblue;
+}
+
+.header {
+  background-color: #0d1b2a;
+  color: aliceblue;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-light .navbar-brand {
+  color: #258cfb;
+}
+
+@media (min-width: 576px) {
+  .navbar-expand-sm .navbar-nav {
+    flex-direction: row-reverse;
+  }
+}
+
+span {
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #ffaa5a;
+}
+span:hover {
+  color: aqua;
+}
+
+.nav-link:hover {
+  color: rgba(204, 31, 31, 0.7);
+}
+.table {
+  color: aliceblue;
+  border-color: #0d1b2a;
+}
+table tr:nth-child(odd) {
+  background-color:#0d1b2a6f;
 }
