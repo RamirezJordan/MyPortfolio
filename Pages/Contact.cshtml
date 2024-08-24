@@ -4,7 +4,7 @@
     ViewData["Title"] = "Contacto";
 }
 
-<h2>Contacto</h2>
+<h2 class="contact-title">Contacto</h2>
 
 @if (TempData["SuccessMessage"] != null)
 {
@@ -13,7 +13,7 @@
     </div>
 }
 
-<form method="post">
+<form method="post" class="form">
     <div class="form-group">
         <label asp-for="ContactForm.CompanyName"></label>
         <input asp-for="ContactForm.CompanyName" class="form-control" />

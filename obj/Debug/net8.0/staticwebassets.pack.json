@@ -13,6 +13,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\UMCA\\2024\\IIC\\PROGRAMACION_5\\MyPortfolio\\wwwroot\\images\\1.png",
+      "PackagePath": "staticwebassets\\images\\1.png"
+    },
+    {
+      "Id": "D:\\UMCA\\2024\\IIC\\PROGRAMACION_5\\MyPortfolio\\wwwroot\\images\\2.png",
+      "PackagePath": "staticwebassets\\images\\2.png"
+    },
+    {
+      "Id": "D:\\UMCA\\2024\\IIC\\PROGRAMACION_5\\MyPortfolio\\wwwroot\\images\\3.png",
+      "PackagePath": "staticwebassets\\images\\3.png"
+    },
+    {
+      "Id": "D:\\UMCA\\2024\\IIC\\PROGRAMACION_5\\MyPortfolio\\wwwroot\\images\\4.png",
+      "PackagePath": "staticwebassets\\images\\4.png"
+    },
+    {
+      "Id": "D:\\UMCA\\2024\\IIC\\PROGRAMACION_5\\MyPortfolio\\wwwroot\\images\\5.png",
+      "PackagePath": "staticwebassets\\images\\5.png"
+    },
+    {
+      "Id": "D:\\UMCA\\2024\\IIC\\PROGRAMACION_5\\MyPortfolio\\wwwroot\\images\\6.png",
+      "PackagePath": "staticwebassets\\images\\6.png"
+    },
+    {
+      "Id": "D:\\UMCA\\2024\\IIC\\PROGRAMACION_5\\MyPortfolio\\wwwroot\\images\\pf.jpg",
+      "PackagePath": "staticwebassets\\images\\pf.jpg"
+    },
+    {
       "Id": "D:\\UMCA\\2024\\IIC\\PROGRAMACION_5\\MyPortfolio\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -12,10 +12,9 @@ namespace MyPortfolio.Pages
         {
             TechnicalSkills = new List<string>
             {
-                "C#",
-                ".NET Core",
-                "ASP.NET",
+                "Node.js",
                 "JavaScript",
+                "Sass",
                 "SQL",
                 "HTML & CSS"
             };

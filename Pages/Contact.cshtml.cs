@@ -17,7 +17,6 @@ namespace MyPortfolio.Pages
         {
             if (ModelState.IsValid)
             {
-                // Lógica para manejar el formulario de contacto (por ejemplo, enviar un correo electrónico)
                 TempData["SuccessMessage"] = "Tu mensaje ha sido enviado exitosamente!";
                 return RedirectToPage();
             }
