@@ -234,7 +234,8 @@ table tr:nth-child(odd) {
   color: var(--Slightly-transparent-white);
 }
 
-.contact-title {
+.contact-title,
+.projects-title {
   color: var(--Soft-violet);
 }
 

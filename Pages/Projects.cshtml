@@ -1,7 +1,7 @@
 @page
 @model ProjectsModel
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-<h2>Proyectos</h2>
+<h2 class="projects-title">Projects</h2>
 <table class="table">
     <thead>
         <tr>
@@ -18,7 +18,7 @@
                 <td>@repo.Name</td>
                 <td>@repo.Description</td>
                 <td>@repo.Language</td>
-                <td><a class="project-link" href="@repo.HtmlUrl" target="_blank">Ver en GitHub</a></td>
+                <td><a class="project-link" href="@repo.HtmlUrl" target="_blank">Link to GitHub</a></td>
             </tr>
         }
     </tbody>
